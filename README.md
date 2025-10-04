@@ -58,11 +58,11 @@ Bibliotecas:
 - Menu principal:
 
 - ==== Sistema de Inventario ====
-- 1. Cadastrar item
-- 2. Remover item
-- 3. Listar itens
-- 4. Buscar item
-- 0. Sair
+- Cadastrar item
+- Remover item
+- Listar itens
+- Buscar item
+- Sair
 - Escolha uma opcao:
 
 
