@@ -7,16 +7,16 @@ O objetivo é praticar o uso de **structs, vetores e funções** em C, simulando
 
 ---
 
-## 🚀 Funcionalidades  
+# 🚀 Funcionalidades  
 
-- **Cadastro de itens**: até 10 itens podem ser adicionados, cada um com `nome`, `tipo` e `quantidade`.  
-- **Remoção de itens**: permite remover um item pelo nome.  
-- **Listagem**: exibe todos os itens da mochila após cada operação.  
-- **Busca sequencial**: procura um item pelo nome e exibe seus dados.  
+- Cadastro de itens**: até 10 itens podem ser adicionados, cada um com `nome`, `tipo` e `quantidade`.  
+- Remoção de itens**: permite remover um item pelo nome.  
+- Listagem**: exibe todos os itens da mochila após cada operação.  
+- Busca sequencial**: procura um item pelo nome e exibe seus dados.  
 
 ---
 
-## 📂 Estrutura de Dados  
+# 📂 Estrutura de Dados  
 
 - A estrutura usada é uma `struct Item` com os campos:  
 
@@ -30,39 +30,39 @@ typedef struct {
 
 - Os itens são armazenados em um vetor sequencial de até 10 posições.
 
-## 🛠️ Tecnologias utilizadas
+# 🛠️ Tecnologias utilizadas
 
 Linguagem: C
 
 Bibliotecas:
 
-- **<stdio.h> → Entrada e saída de dados
+- <stdio.h> → Entrada e saída de dados
 
--  **<stdlib.h> → Utilidades gerais
+-  <stdlib.h> → Utilidades gerais
 
-- **<string.h> → Manipulação de strings
+- <string.h> → Manipulação de strings
 
-## 📖 Como executar
+# 📖 Como executar
 
-- **Clone o repositório ou copie o código para um arquivo chamado inventario.c.
+- Clone o repositório ou copie o código para um arquivo chamado inventario.c.
 
-- **Compile o programa em um terminal:
+- Compile o programa em um terminal:
 
 ```gcc inventario.c -o inventario```
 
-- **Execute o programa:
+- Execute o programa:
 
   ```./inventario```
 
-##📋 Exemplo de uso
+# 📋 Exemplo de uso
 - Menu principal:
 
 - ==== Sistema de Inventario ====
-- **1. Cadastrar item
-- **2. Remover item
-- **3. Listar itens
-- **4. Buscar item
-- **0. Sair
+- 1. Cadastrar item
+- 2. Remover item
+- 3. Listar itens
+- 4. Buscar item
+- 0. Sair
 - Escolha uma opcao:
 
 
@@ -91,42 +91,42 @@ Item encontrado!
 Nome: KitMedico | Tipo: cura | Quantidade: 2
 
 
-##📌 Regras de funcionamento
+# 📌 Regras de funcionamento
 
-- **O inventário comporta no máximo 10 itens.
+- O inventário comporta no máximo 10 itens.
 
-- **Não é possível remover ou buscar em uma mochila vazia.
+- Não é possível remover ou buscar em uma mochila vazia.
 
-- **Os nomes dos itens são usados como chave de busca (não pode haver dois itens com o mesmo nome).
+- Os nomes dos itens são usados como chave de busca (não pode haver dois itens com o mesmo nome).
 
-##🧩 Organização do código
+# 🧩 Organização do código
 
 - O programa está dividido em funções para facilitar a manutenção:
 
-- **inserirItem() → adiciona itens na mochila.
+- inserirItem() → adiciona itens na mochila.
 
-- **removerItem() → remove itens pelo nome.
+- removerItem() → remove itens pelo nome.
 
-- **listarItens() → lista todos os itens atuais.
+- listarItens() → lista todos os itens atuais.
 
-- **buscarItem() → busca sequencialmente um item pelo nome.
+- buscarItem() → busca sequencialmente um item pelo nome.
 
-##🎯 Objetivo educacional
+# 🎯 Objetivo educacional
 
 - Este projeto foi desenvolvido como prática de:
 
-- **Structs para agrupar dados.
+- Structs para agrupar dados.
 
-- **Vetores sequenciais para organizar múltiplos registros.
+- Vetores sequenciais para organizar múltiplos registros.
 
-- **Modularização com funções.
+- Modularização com funções.
 
-- **Busca sequencial em um vetor de structs.
+- Busca sequencial em um vetor de structs.
 
-##📌 Próximos passos poderiam incluir:
+# 📌 Próximos passos poderiam incluir:
 
-- **Implementar mochila dinâmica com ponteiros e alocação dinâmica (malloc).
+- Implementar mochila dinâmica com ponteiros e alocação dinâmica (malloc).
 
-- **Adicionar sistema de categorias para organizar melhor os itens.
+- Adicionar sistema de categorias para organizar melhor os itens.
 
-- **Salvar e carregar o inventário em um arquivo.
+- Salvar e carregar o inventário em um arquivo.
